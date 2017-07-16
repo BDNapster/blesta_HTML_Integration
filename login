@@ -6,7 +6,7 @@
         <ul class="dropdown-menu loginbox" role="menu">
           <li>
             <form method="post" action="http://your_blesta_login_url/client/login/">
-			        <input type="hidden" name="_csrf_token" value="your_tocken_value(using inspect element you can find it form your login page)" >
+			        <input type="hidden" name="_csrf_token" value="your_token_value(using inspect element you can find it form your login page)" >
               <div>
                 <div class="form-group">
                   <label for="login_username">User Name</label>
